@@ -35,7 +35,11 @@ header{
 .flex{
     display: flex;
     /* debug */
+    border: 1px solid black;
     
+}
+.warp{
+    flex-wrap: wrap;
 }
 .jc-content{
     justify-content: space-between;
@@ -60,4 +64,13 @@ header{
     width: 150px;
     margin: 0 50px 0 25px;
 
+}
+/* debug */
+.min-h{
+    min-height: 800px;
+}
+.min-hei
+/* bg-color */
+.bg-light-blue{
+    background-color: rgb(84, 156, 240);
 }
