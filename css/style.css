@@ -32,6 +32,11 @@ header{
     margin: 0 auto;
     width: 60%;
 }
+.column{
+    margin: 0 auto;
+    width: 90%;
+
+}
 .flex{
     display: flex;
     /* debug */
@@ -44,11 +49,17 @@ header{
 .gap-80{
     gap: 80px;
 }
+.gap-20{
+    gap: 50px;
+}
 .warp{
     flex-wrap: wrap;
 }
 .jc-content-between{
     justify-content: space-between;
+}
+.jc-content-center{
+    justify-content: center;
 }
 .aitems-center{
     align-items: center;
@@ -62,6 +73,10 @@ header{
 }
 .padding-top-80{
     padding-top: 80px;
+}
+.padding-10{
+    padding: 10px;
+
 }
 /* larghezze */
 .width-100{
@@ -92,10 +107,14 @@ header{
 }
 /* debug */
 .min-h{
-    min-height: 1400px;
+    min-height: 1000px;
 }
 .min-h1{
-    height: 600px;
+    height: 400px;
+}
+.min-h2{
+    height: 800px;
+
 }
 .border{
     border: 1px solid black;
