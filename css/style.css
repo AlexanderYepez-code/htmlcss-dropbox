@@ -43,7 +43,7 @@ header{
     border: 1px solid black;
     
 }
-.font-size-4rem{
+.font-size-2-4rem{
     font-size: 2.4rem;
 }
 .gap-80{
@@ -91,6 +91,9 @@ header{
 .width-30{
     width: 30%;
 }
+.width-x3{
+    width: calc(100 / 3);
+}
 .button-blue{
     padding: 10px 20px;
     background-color: #1c5ec0;
@@ -115,6 +118,9 @@ header{
 .min-h2{
     height: 800px;
 
+}
+.min-h3{
+    height: 300px;
 }
 .border{
     border: 1px solid black;
